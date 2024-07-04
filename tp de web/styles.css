@@ -16,13 +16,13 @@ div a{
     left: 0;
     width: 0%;
     height: 3%;
-    background-color: black; /* Color de la línea */
-    transition: width 0.2s ease-in-out; /* Animación de ancho */
-    opacity: 0; /* Opacidad inicial 0 */
+    background-color: black; 
+    transition: width 0.2s ease-in-out; 
+    opacity: 0; 
   }
   
   .nav-item.dropdown:hover .dropdown-toggle::after {
-    width: 95%; /* Ancho completo al hacer hover */
-    opacity: 1; /* Opacidad final 1 */
+    width: 95%; 
+    opacity: 1; 
   }
 
