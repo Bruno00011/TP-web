@@ -1,0 +1,28 @@
+.image-caption {
+    font-size: 25px;
+    color: black;
+    margin-top: 5px;
+    text-align: center;  
+}
+
+div a{
+    text-decoration: none;
+}
+
+.nav-item.dropdown .dropdown-toggle::after {
+    content: '';
+    position: absolute;
+    top: 90%;
+    left: 0;
+    width: 0%;
+    height: 3%;
+    background-color: black; /* Color de la línea */
+    transition: width 0.2s ease-in-out; /* Animación de ancho */
+    opacity: 0; /* Opacidad inicial 0 */
+  }
+  
+  .nav-item.dropdown:hover .dropdown-toggle::after {
+    width: 95%; /* Ancho completo al hacer hover */
+    opacity: 1; /* Opacidad final 1 */
+  }
+
