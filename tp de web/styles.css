@@ -35,3 +35,27 @@ div a{
     transition: transform 0.2s ease-in-out;
   }
 
+  .card {
+    border: 2px solid black; 
+    color: black; 
+  }
+
+  .card-title{
+    color: black;
+  }
+
+h1{
+  text-align: center;
+  margin-top: 25px;
+  font-size: 25px;
+}
+
+
+.card:hover {
+  background-color: black; 
+}
+
+.card-title:hover{
+  color: white;
+}
+
