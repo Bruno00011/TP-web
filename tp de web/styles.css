@@ -30,3 +30,8 @@ div a{
     color: orangered;  
   }
 
+.product-image img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+  }
+
