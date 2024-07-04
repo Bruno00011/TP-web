@@ -26,3 +26,7 @@ div a{
     opacity: 1; 
   }
 
+.nav-item.dropdown .dropdown-link:hover {  
+    color: orangered;  
+  }
+
