@@ -65,3 +65,35 @@ header .navbar {
     z-index: 100;
   }
 
+.list-unstyled li a:hover {  
+  text-decoration: underline;  
+}
+
+.image-container3 {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 80%; 
+  left: 35%; 
+  z-index: 1; 
+}
+
+.text-overlay p {
+  margin: 0; 
+  padding: 5px; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white; 
+}
+
+.text-overlay h1{
+  color: wheat;
+  font-size: 60px
+}
+
+.text-overlay p:hover{
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+
