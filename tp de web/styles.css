@@ -97,3 +97,9 @@ header .navbar {
   transition: 0.2s ease-in-out;
 }
 
+.bi-search, .bi-person, .bi-heart, .bi-cart2 {
+  font-size: 1rem; 
+  margin: 5px 10px; 
+  color: black;
+}
+
