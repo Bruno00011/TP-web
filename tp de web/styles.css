@@ -103,19 +103,21 @@ header .navbar {
   color: black;
 }
 
-.item-personalizado img {
-  max-width: 350px;
-  margin-top: 50px;
+.image-caption.texto-imagen {
+  font-size: 20px;
 }
 
-.carousel-personalizado {
-  width: 20%;
-  max-width: 20%; 
-  height: auto; 
+.rebajatachado {
+  text-decoration: line-through;
+  color: grey;
 }
 
-.item-personalizado img {
-  width: 20%; 
-  height: auto; 
+.preciocolor{
+  color: orangered;
 }
+
+.rebajasclase{
+  color: gray;
+}
+
 
