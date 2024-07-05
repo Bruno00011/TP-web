@@ -103,3 +103,19 @@ header .navbar {
   color: black;
 }
 
+.item-personalizado img {
+  max-width: 350px;
+  margin-top: 50px;
+}
+
+.carousel-personalizado {
+  width: 20%;
+  max-width: 20%; 
+  height: auto; 
+}
+
+.item-personalizado img {
+  width: 20%; 
+  height: auto; 
+}
+
